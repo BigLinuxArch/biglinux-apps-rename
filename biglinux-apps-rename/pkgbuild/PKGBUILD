@@ -1,15 +1,15 @@
 # Maintainer: Bruno Goncalves <bigbruno@gmail.com>
 
 pkgname=biglinux-apps-rename
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=25.04.09
+pkgrel=0627
 arch=('any')
 license=('GPL')
 url="https://github.com/biglinux/biglinux-apps-rename"
 pkgdesc="Rename apps"
 conflicts=('bashrc-manjaro')
 provides=('bashrc')
-source=("git+https://github.com/biglinux/biglinux-apps-rename.git")
+source=("git+https://github.com/biglinux/biglinux-apps-rename.git#branch=stable-2025-04-09_03-24")
 md5sums=(SKIP)
 
 package() {
